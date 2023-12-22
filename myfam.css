@@ -1,0 +1,236 @@
+/* video related styles */
+video{
+    
+
+/* transform: rotate(-90deg); */
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+z-index:-1;
+background-size: cover;
+}
+.heading{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 100px;
+    color:rgba(red, green, blue, alpha);
+    margin-top: 100px;
+    letter-spacing: px;
+    text-shadow:0px 0px 10px green,
+    0px 0px 10px green,
+    10px 10px 100px green,
+    10px 10px 100px green;
+
+
+/* .heading:hover{
+    text-align: center;
+    font-size: 150px;
+    color:rgba(red, green, blue, alpha);
+    margin-top: 280px;
+    letter-spacing: 5px;
+    text-shadow:0px 0px 10px rgb(44, 162, 183),
+    0px 0px 10px green,
+    10px 10px 100% rgb(54, 138, 161),
+    10px 10px 100% green;
+    /* -webkit-text-fill-color: transparent; 
+    transform-origin: bottom;
+  /* transform: rotateX(-180deg); 
+}*/
+
+span:nth-child(3){
+    font-size: 150px;
+}
+span:nth-child(7){
+    font-size: 150px;
+    animation: rotates;
+    animation-duration: 2s;
+}
+@keyframes rotates {
+
+       0% {
+transform: rotate(45deg);
+        
+    }
+    
+}
+span:nth-child(9){
+    font-size: 150px;
+}span:nth-child(11){
+    font-size: 150px;
+}
+span:nth-child(1){
+  transform: rotate();  
+}
+}
+/* ----------------video style end---------------------- */
+
+/* ------start style for  login register about---------------- */
+
+.main{
+   
+    color: blue;
+    margin-top:30px;
+    margin-left: 50rem;
+    font-size: 20px;
+
+    span:nth-child(1){
+        padding: 6px;
+        overflow: auto;
+        text-align: center;
+        font-weight: 100px;
+        /* display: inline-block; */
+        border-radius: 15px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        background-color: rgb(0, 128, 0);
+    background-size: cover;
+
+    }
+    span:nth-child(2){
+        padding: 6px;
+        overflow: auto;
+        text-align: center;
+        font-weight: 100px;
+        /* display: inline-block; */
+        border-radius: 15px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        background-color: green;
+    background-size: cover;
+    }
+    span:nth-child(3){
+        overflow: auto;
+        padding: 6px;
+        text-align: center;
+        font-weight: 100px;
+        /* display: inline-block; */
+        border-radius: 15px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        background-color: green;
+    background-size: cover;
+    }
+}
+/* ------end style for login register about---------------- */
+
+/* -start style for logo */
+
+.logo{
+ 
+  /* visibility: inherit; */
+    margin-top: 30px;
+    
+    margin-left: 50px;
+    border-radius: 100%;
+    border: .5px solid;
+    height: 100px;
+    width: 100px;
+/* background-image: url('index_images/jan.jpg');   */
+
+}
+.title{
+    margin-top: 55px;
+    margin-left: 25px;
+    font-size: 45px;
+    color: green;
+    width: large;
+}
+
+/* bottom right style  start */
+.bottom_right{
+    margin-top: 80px;
+    /* margin-bottom: 30px; */
+    margin-left: 40rem;
+    span:nth-child(1){
+        animation-name: child1;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+        border-radius: 20%;
+        color: red;
+        font-size: 20px;
+border: 1px solid;
+padding: 10px;
+background-color: blue;
+
+    }
+    span:nth-child(2){
+        animation-name: child2;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+        border-radius: 20%;
+        color: red;
+        font-size: 20px;
+border: 1px solid;
+padding: 10px;
+background-color: blue;
+
+    }
+    span:nth-child(3){
+  animation-name: child3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+
+
+
+        border-radius: 20%;
+        color: red;
+        font-size: 20px;
+border: 1px solid;
+padding: 10px;
+background-color: blue;
+
+    }
+
+}
+
+@keyframes child1 {
+    0%   {background-color: lime;}
+    25%  {background-color: pink;}
+    50%  {background-color: fuchsia;}
+    100% {background-color: green;}
+}
+@keyframes child_2 {
+    0%   {background-color: skyblue;}
+    25%  {background-color: yellow;}
+    50%  {background-color: gold;}
+    100% {background-color: lightseagreen;}
+}
+@keyframes child3 {
+    0%   {background-color:yellowgreen;}
+    25%  {background-color: green;}
+    50%  {background-color: goldenrod;}
+    100% {background-color: cyan;}
+}
+/* bottom right style  end */
+/* startlogo for left bottom */
+.left_bottom_logo{
+/* cursor:help; */
+    margin-top: 90px;
+    margin-left: 50px;
+    border-radius: 100%;
+    border: .5px solid;
+    height: 100px;
+    width: 100px;
+/* background-image: url('index_images/klr.jpg');  */
+
+}
+.title1{
+    margin-top: 95px;
+    margin-left: 25px;
+    font-size: 45px;
+    color: green;
+    width: large;
+    text-transform: uppercase;
+}
+/* end logo for left bottom */
+
+
+
+
+
+

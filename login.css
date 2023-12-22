@@ -1,0 +1,110 @@
+video{
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+z-index:-1;
+background-size: cover;
+
+}
+.middle{
+    margin-top: 12rem;
+    margin-left: 31rem;
+    border: .1px solid green;
+    width: fit-content;
+   padding-left: 100px;
+   padding-bottom: 70px;
+   padding-right: 100px;
+   padding-top: 30px;
+   background-image: url('index_images/jan.jpg');
+background-size: cover;
+z-index: -1;
+/* filter: blur(1px); */
+/* -webkit-filter: blur(1px); */
+/* filter: brightness(); */
+}
+
+/* ::first-letter{
+    color: green;
+} */
+
+
+.label1{
+    padding-left:25px;
+    font-weight: 600;
+        /* color: greenyellow; */
+        background-image: url('index_images/lan.jpg');
+        letter-spacing: 3px;
+        /* margin: 250px auto;  */
+        text-align: center;
+        font-size: 3rem;
+     text-transform: uppercase;
+     background-size: cover; 
+    background-attachment: fixed;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color:transparent;
+     filter: brightness(100px);
+     /* -webkit-background-origin: initial; */
+    
+    }
+
+
+.label2{
+    font-size: 20px;
+    font-weight: 100;
+    font-style: oblique;
+    letter-spacing:1px;
+    color: red;
+}
+.label3{
+    font-size: 20px;
+    font-weight: 100;
+    font-style: oblique;
+    letter-spacing:1px;
+    color: red;
+}
+
+.inpt_bod{
+    border: 1px solid green;
+    border-radius: 20%;
+    color: blue;
+    background-color:lightgreen;
+
+}
+.inpt_bod:hover{
+    border: 1px solid green;
+    border-radius: 20%;
+    color: red;
+    background-color:lightgoldenrodyellow;
+    height: 20px;
+    font-size: medium;
+
+}
+span{
+
+display: inline;
+}
+.button1{
+    /* margin-top: 100px; */
+    margin-left: 20px;
+    padding : 4px;
+color: cyan;
+font-size: 20px;
+border-radius: 25%;
+background-color: green;
+    
+}
+.button2{
+    /* margin-top: 0px; */
+    margin-left: 200px;
+    padding : 4px;
+    color: cyan;
+    font-size: 20px;
+    border-radius: 25%;
+    background-color: green;
+
+
+
+        
+    }
